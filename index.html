@@ -5,16 +5,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="img/icon.jpg"/>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title> Prem Agarwal </title>
+    <title> Prem Agarwal's </title>
+    <script>  
+ 
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "50%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
     </head>
     <body>
  <div id="header">  
  Prem Agarwal's
  <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()"> &#9776;</span> </p> 
 </div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#about">About Me</a>
+  <a href="#feature">Why me</a>
+  <a href="#details"> Payments </a>
+  <a href="#knowledge">Knowledge</a>
+  <a href="#works">My works</a>
+</div>
 <div class="div div1" id="about">  
+<img src="img/icon.jpg">  </img>
 <h2> About Me </h2>
-<img src="img/developer.jpg">  </img>
 <p> Hello! My name is Prem Agarwal. I am a front-end web developer. I also contain some knowledge of back-end web development. I am better in web styling. I contain 80% knowledge of HTML and CSS. Now you can ask where is the rest 20%. Well, do you know why is wikipedia logo incomplete? It shows the incomplete nature of the project, the articles and languages yet to be added.</p>
 </div>
 <div class="div div2" id="feature">  
@@ -36,5 +54,28 @@
 <img src="img/hand.jpg">  </img>
 <p> "And the main matter is that if you order a company, they will get details from you. Sometimes later, you will get your website and paid for that. Now, if you don't want a part of your website look like that, either you have to pay again for editing or you have to carry on with that website. But, I am not a company, I am an individual creator. You can simply tell me what you want and what not. This is the thing everyone wants and here you will get it." </p>
 </div>
-     </body> 
+<div class="div div3" id="details">
+<h2> Payments </h2>
+<img src="img/pay.jpg">  </img>
+<h3> Your money worths it </h3>
+<p> "A fully user-friendly and beautiful website can cost you upto 10000 rs. But don't worry, as I mentioned before, it will cost you from 999 to 2999 INR. Now, you can choose how better you want your website will look. And don't hesitate, you can check my works. Your payments will literally worth it!" </p>
+<p> You will not get potato type websites. If you didn't read upper section of <strong> <a href="#feature"> Why me? </a> </strong> then you should go and read that. </p>
+</div>
+<div class="div div4" id="knowledge">  
+<h2> Knowledge </h2>
+<img src="img/knowledge.jpg">  </img>
+<h3> Pretty CSS </h3>
+<p> "I am a good web designer and experienced of making very beautiful and user friendly websites. A good looking website attracts more viewer, otherwise it has only few views in very long-time intervals. Your website should look like that every visitor will enjoy reading your contents and not get bored. A pretty design boosts your visitor's number!"</p>
+</div>
+<div class="div div5" id="works">
+<h2> My works </h2>
+<img src="img/developer.jpg">  </img>
+<h3> My some works </h3>
+<p> If you want to know about my works, you can visit some of website made by me. <a href="https://excellenceacademy.github.io"> Website1 </a> & <a href="https://lverf.github.io"> Website2 </a>. And this website is also an example of my work. </p>
+</div>
+<footer>  
+<p> You are visiting premagarwals.github.io - Prem Agarwal's </p>
+<p> &copy; Copyright 2021, all rights reserved. </p>
+</footer>
+    </body> 
 </html>
