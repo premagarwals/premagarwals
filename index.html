@@ -29,6 +29,7 @@ function closeNav() {
   <a href="#details"> Payments </a>
   <a href="#knowledge">Knowledge</a>
   <a href="#works">My works</a>
+  <a href="#contact"> Contact me </a>
 </div>
 <div class="div div1" id="about">  
 <img src="img/icon.jpg">  </img>
@@ -112,9 +113,39 @@ function closeNav() {
 <h3> My some works </h3>
 <p> If you want to know about my works, you can visit some of website made by me. <a href="https://excellenceacademy.github.io"> Website1 </a> & <a href="https://lverf.github.io"> Website2 </a>. And this website is also an example of my work. </p>
 </div>
+<div class="container">  
+  <form id="contact" onsubmit="send()">
+    <h3> Contact Me</h3>
+    <h4>Contact me today, and get reply soon!</h4>
+    <fieldset>
+      <input id="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input id="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input id="phone" placeholder="Your Phone Number" type="tel" tabindex="3" pattern="[0-9]{10}" required>
+    </fieldset>
+    <fieldset>
+      <textarea id="say" placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>  </div>
 <footer>  
 <p> You are visiting premagarwals.github.io - Prem Agarwal's </p>
 <p> &copy; Copyright 2021, all rights reserved. </p>
 </footer>
+<script>  
+function send(){
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var phone = document.getElementById("phone").value;
+var say = document.getElementById("say").value;
+var link = "mailto:prem3rdac@gmail.com?subject=Name: "+name+"%0d%0aEmail: "+email+"%0d%0aContact No.: "+phone+"&body="+say;
+location.href = link;
+}
+</script>
     </body> 
 </html>
