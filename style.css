@@ -129,12 +129,10 @@ table{
 border-radius: 40px;
 }
 
-#price td, #price th {
+#price td,#price th {
   border: 4px solid #ddd;
   padding: 18px;
 }
-#price tr:nth-child(even){background-color: #f2f2f2;}
-
 #price tr:hover {background-color: #ddd;}
 
 #price th {
