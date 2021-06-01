@@ -10,7 +10,7 @@
     <script>  
  
     function openNav() {
-  document.getElementById("mySidenav").style.width = "50%";
+  document.getElementById("mySidenav").style.width = "60%";
 }
 
 function closeNav() {
@@ -25,21 +25,29 @@ function closeNav() {
 </div>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <p> <i class="bx bx-disc">  </i> Prem Agarwal's </p>
-  <a href="#about">   <i class='bx bx-home nav__icon' ></i> About Me</a>
-  <a href="#feature"> <i class='bx bx-user nav__icon' ></i> Why me?</a>
+  <p> <i class="bx bx-disc">  </i> PREM AGARWAL'S </p>
+  <span> MYSELF </span>
+  <a href="#about">   <i class='bx bx-info-circle nav__icon' ></i> About Me</a>
+  <div class="why"> <a href="#feature" > <i class='bx bx-user'></i> Why me? <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>     
+                                       <div class="nav_drop">
+                                        <a href="#" class="nav_item">Free Domain</a>
+                                        <a href="#" class="nav_item">No monthly Payment</a>
+                                        <a href="#" class="nav_item">Editable Website</a>
+                                        <a href="#" class="nav_item">Low Cost</a>
+                                        <a href="#" class="nav_item">Friendly Work</a></div></div>
+    <a href="#contact"> <i class='bx bx-message-rounded nav__icon' ></i> Contact me </a>
+  <span> ABOUT WORK </span>                                     
   <a href="#details"> <i class='bx bx-money nav__icon'>  </i> Payments </a>
   <a href="#knowledge"> <i class='bx bx-brain nav__icon'>  </i> Knowledge</a>
   <a href="#works"> <i class='bx bx-folder nav__icon'>  </i> My works</a>
-  <a href="#contact"> <i class='bx bx-message-rounded nav__icon' ></i> Contact me </a>
 </div>
 <div class="div div1" id="about">  
 <img src="img/icon.jpg">  </img>
-<h2> About Me </h2>
+<h2><i class='bx bx-info-circle'>  </i> About Me </h2>
 <p> Hello! My name is Prem Agarwal. I am a front-end web developer. I also contain some knowledge of back-end web development. I am better in web styling. I contain 80% knowledge of HTML and CSS. Now you can ask where is the rest 20%. Well, do you know why is wikipedia logo incomplete? It shows the incomplete nature of the project, the articles and languages yet to be added.</p>
 </div>
 <div class="div div2" id="feature">  
-<h2> Why me? </h2>
+<h2><i class="bx bx-user">  </i> Why me? </h2>
 <p> Now, a simple and common question, why you will give me this project. Here's come the main topic. </p>
 <h3><img src="img/point.png">  </img> Free Domain </h3>
 <img src="img/freedom.jpg">  </img>
@@ -58,7 +66,7 @@ function closeNav() {
 <p> "And the main matter is that if you order a company, they will get details from you. Sometimes later, you will get your website and paid for that. Now, if you don't want a part of your website look like that, either you have to pay again for editing or you have to carry on with that website. But, I am not a company, I am an individual creator. You can simply tell me what you want and what not. This is the thing everyone wants and here you will get it." </p>
 </div>
 <div class="div div3" id="details">
-<h2> Payments </h2>
+<h2><i class='bx bx-money'>  </i> Payments </h2>
 <img src="img/pay.jpg">  </img>
 <h3> Your money worths it </h3>
 <p> "A fully user-friendly and beautiful website can cost you upto 10000 rs. But don't worry, as I mentioned before, it will cost you from 999 to 2999 INR. Now, you can choose how better you want your website will look. And don't hesitate, you can check <a href="#works"> my works </a>. Your payments will literally worth it!" </p>
@@ -104,20 +112,20 @@ function closeNav() {
  
 </div>
 <div class="div div4" id="knowledge">  
-<h2> Knowledge </h2>
+<h2><i class='bx bx-brain'>  </i> Knowledge </h2>
 <img src="img/knowledge.jpg">  </img>
 <h3> Pretty CSS </h3>
 <p> "I am a good web designer and experienced of making very beautiful and user friendly websites. A good looking website attracts more viewer, otherwise it has only few views in very long-time intervals. Your website should look like that every visitor will enjoy reading your contents and not get bored. A pretty design boosts your visitor's number!"</p>
 </div>
 <div class="div div5" id="works">
-<h2> My works </h2>
+<h2><i class='bx bx-folder'>  </i> My works </h2>
 <img src="img/developer.jpg">  </img>
 <h3> My some works </h3>
 <p> If you want to know about my works, you can visit some of website made by me. <a href="https://excellenceacademy.github.io"> Website1 </a> & <a href="https://lverf.github.io"> Website2 </a>. And this website is also an example of my work. </p>
 </div>
 <div class="container">  
   <form id="contact" onsubmit="send()">
-    <h3> Contact Me</h3>
+    <h3><i class='bx bx-message-rounded'>  </i> Contact Me</h3>
     <h4>Contact me today, and get reply soon!</h4>
     <fieldset>
       <input id="name" placeholder="Your name" type="text" tabindex="1" required autofocus>

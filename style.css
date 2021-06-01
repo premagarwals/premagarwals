@@ -43,7 +43,7 @@ width: 50px;
 margin-bottom: -10px;
 }
 h2 {font-size: 100px; color: #8c54fc }
-h3 {font-size: 80x;font-weight: 700;color: #fc5454;}
+h3 {font-size: 60px;font-weight: 700;color: #fc5454;}
 .div{
 padding: 20% 5% 10% 5%;
 margin-top: -300px;
@@ -102,9 +102,9 @@ margin-left: 20px;
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  line-height: 80px;
+  line-height: 110px;
   font-size: 40px;
-  color: rgba(0,0,0,.4);
+  color: rgba(0,0,0,.7);
   display: block;
   transition: 0.3s;
 }
@@ -120,10 +120,54 @@ margin-left: 20px;
   font-size: 100px;
   margin-left: 50px;
 }
+.sidenav span{
+display: flex;
+font-size: 40px;
+letter-spacing: 5px;
+font-family: sans serif;
+font-weight: 700;
+color: rgba(0,0,0,.3);
+margin: 40px;
+margin-top: 60px;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+.nav_drop{
+background: rgba(252,84,84,.5);
+max-height: 0;
+margin: 0 50px;
+padding: 0px 30px;
+border-radius: 20px;
+line-height: 30px;
+transition: 1s;
+transition-delay: 0.2s;
+}
+.nav_drop a{
+line-height: 50px;
+font-size: 30px;
+color: white;
+}
+.nav__dropdown-icon {
+  margin-left: 200px;
+  transition: .4s;
+}
+.why:hover .nav__dropdown-icon{
+transform: rotate(180deg);
+}
+.why:hover .nav_drop{
+max-height: 400px;
+margin: 10px 50px;
+padding: 30px 30px;
+transition-delay: 0s;
+}
+.nav_drop:hover{
+max-height: 400px;
+margin: 10px 50px;
+padding: 30px 30px;
+}
+
 
 #price {
   border-collapse: collapse;
