@@ -67,14 +67,15 @@ font-size: 10px;
 
 
 .sidenav {
-  padding-top: 15%;
+  padding-top: 2%;
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 1001;
+  color: rgba(0,0,0,.4);
   top: 0;
   left: 0;
-  background-color: rgba(140,84,252,.9);
+  background-color: #FFF;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top.sidenav {
@@ -92,19 +93,24 @@ font-size: 10px;
 
 .sidenav a : 60px;
 }
+.sidenav p{
+font-size: 50px;
+color: #8c54fc;
+margin-left: 20px;
+}
 
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 60px;
-  color: white;
+  line-height: 80px;
+  font-size: 40px;
+  color: rgba(0,0,0,.4);
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
   color: #fc5454;
-  text-shadow: 0 0 10px rgba(0,0,0,.3);
 }
 
 .sidenav .closebtn {
