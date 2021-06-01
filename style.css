@@ -143,7 +143,7 @@ margin: 0 50px;
 padding: 0px 30px;
 border-radius: 20px;
 line-height: 30px;
-transition: 1s;
+transition: 0.4s;
 transition-delay: 0.2s;
 }
 .nav_drop a{
