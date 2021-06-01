@@ -1,5 +1,7 @@
 html {
     scroll-behavior: smooth !important;
+-webkit-tap-highlight-color: transparent;
+
 }
 body {
 font-family: 'Quicksand', sans-serif;
@@ -148,6 +150,7 @@ transition-delay: 0.2s;
 line-height: 50px;
 font-size: 30px;
 color: white;
+-webkit-tap-highlight-color: transparent;
 }
 .nav__dropdown-icon {
   margin-left: 200px;
