@@ -13,7 +13,7 @@ z-index: 1000;
 top: 0;
 left: 0;
 width: 100vw;
-height: 5%;
+height: 40px;
 text-align: center;
 font-size: 25px;
 background: black;
@@ -26,8 +26,8 @@ padding-top: 20px;
 .burger{
 color: white;
 position: fixed;
-top: 2.5%;
-left: 0;
+top: 17px;
+left: 10px;
 font-size: ;
 }
 #about{
