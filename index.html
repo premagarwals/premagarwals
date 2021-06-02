@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="img/icon.jpg"/>
@@ -11,20 +13,23 @@
  
     function openNav() {
   document.getElementById("mySidenav").style.width = "60%";
-}
+  document.getElementById("cont").style.opacity = "1";
+  document.getElementById("cont").style.transitionDelay = "0.35s";}
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("cont").style.opacity = "0";
+  document.getElementById("cont").style.transitionDelay = "0s"
 }
     </script>
     </head>
     <body>
  <div id="header">  
  Prem Agarwal's
- <span class="burger" style="font-size:60px;cursor:pointer" onclick="openNav()"> <i class='bx bx-menu'>  </i></span> </p> 
+ <span class="burger" style="font-size:35px;cursor:pointer" onclick="openNav()"> <i class='bx bx-menu'>  </i></span> </p> 
 </div>
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div id="cont"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <p> <i class="bx bx-disc">  </i> PREM AGARWAL'S </p>
   <span> MYSELF </span>
   <a href="#about">   <i class='bx bx-info-circle nav__icon' ></i> About Me</a>
@@ -40,7 +45,7 @@ function closeNav() {
   <a href="#details"> <i class='bx bx-money nav__icon'>  </i> Payments </a>
   <a href="#knowledge"> <i class='bx bx-brain nav__icon'>  </i> Knowledge</a>
   <a href="#works"> <i class='bx bx-folder nav__icon'>  </i> My works</a>
-</div>
+</div></div>
 <div class="div div1" id="about">  
 <img src="img/icon.jpg">  </img>
 <h2><i class='bx bx-info-circle'>  </i> About Me </h2>
