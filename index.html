@@ -12,12 +12,12 @@
     <script>  
  
     function openNav() {
-  document.getElementById("mySidenav").style.width = "60%";
+  document.getElementById("mySidenav").classList.add("width");
   document.getElementById("cont").style.opacity = "1";
   document.getElementById("cont").style.transitionDelay = "0.35s";}
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("mySidenav").classList.remove("width");
   document.getElementById("cont").style.opacity = "0";
   document.getElementById("cont").style.transitionDelay = "0s"
 }
@@ -34,13 +34,13 @@ function closeNav() {
   <span> MYSELF </span>
   <a href="#about">   <i class='bx bx-info-circle nav__icon' ></i> About Me</a>
   <div class="why"> <a href="#feature" > <i class='bx bx-user'></i> Why me? <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>     
-                                       <div class="nav_drop">
+                                       <div class="nav_drop">
                                         <a href="#freedom" class="nav_item">Free Domain</a>
                                         <a href="#cash" class="nav_item">No monthly Payment</a>
                                         <a href="#edit" class="nav_item">Editable Website</a>
                                         <a href="#low" class="nav_item">Low Cost</a>
                                         <a href="#hand" class="nav_item">Friendly Work</a></div></div>
-    <a href="#contact"> <i class='bx bx-message-rounded nav__icon' ></i> Contact me </a>
+    <a href="#contact"> <i class='bx bx-message-rounded nav__icon' ></i> Contact me </a>
   <span> ABOUT WORK </span>                                     
   <a href="#details"> <i class='bx bx-money bx-tada-hover nav__icon'>  </i> Payments </a>
   <a href="#knowledge"> <i class='bx bx-brain nav__icon'>  </i> Knowledge</a>
