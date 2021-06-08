@@ -155,7 +155,7 @@ color: white;
   margin-left: 50px;
   transition: .4s;
 }
-.why{transition-delay: 0.2s}
+.why{transition-delay: 2s}
 .why:hover .nav__dropdown-icon{
 transform: rotate(180deg);
 }
