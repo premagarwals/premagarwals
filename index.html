@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
    <script>  
  
-    function openNav() {
+    function openNav(event) {
+  event.stopPropagation();
   document.getElementById("mySidenav").classList.add("width");
   document.getElementById("cont").style.opacity = "1";
   document.getElementById("cont").style.transitionDelay = "0.35s";}
@@ -27,13 +28,13 @@ function closeNav() {
 }
     </script>
     </head>
-    <body>
+    <body onclick="closeNav()">
  <div id="header">  
  Prem Agarwal's
- <span class="burger" style="font-size:35px;cursor:pointer" onclick="openNav()"> <i class='bx bx-menu'>  </i></span> </p> 
+ <span class="burger" style="font-size:35px;cursor:pointer" onclick="openNav(event)"> <i class='bx bx-menu'>  </i></span> </p> 
 </div>
-<div id="mySidenav" class="sidenav">
-  <div id="cont"> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<div id="mySidenav" class="sidenav" onclick="event.stopPropagation()">
+  <div id="cont">
   <p> <i class="bx bx-disc">  </i> PREM AGARWAL'S </p>
   <span> MYSELF </span>
   <a href="#about">   <i class='bx bx-info-circle nav__icon' ></i> About Me</a>
