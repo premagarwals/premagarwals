@@ -316,15 +316,24 @@ fieldset {
 
 @media(min-width: 992px){
 
-.div img{
+.div .flex img{
 width: 40%;
-margin: 25px 0;
-margin-left: 30%;
+height: auto;
+margin: 30px 10px;
 border-radius: 10px;
 }
 .div{
 padding: 10px 15%;
 line-height: 30px;
+}
+.div .flex div{width: 90%}
+
+.flex{
+display: flex;
+width: 100%;
+margin-top: 50px;
+ align-items: center;
+ justify-content: center;
 }
 #price {
   border-collapse: collapse;
