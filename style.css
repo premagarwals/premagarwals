@@ -316,12 +316,17 @@ fieldset {
 
 @media(min-width: 992px){
 
-.div .flex img, .div img{
+.div .flex img,{
 width: 40%;
 height: auto;
 margin: 30px 10px;
 border-radius: 10px;
 }
+ .div img{
+	 width: 40%;
+	 margin: 25px 0;
+	 margin-left: 10px;
+	}
 .div{
 padding: 10px 15%;
 line-height: 30px;
