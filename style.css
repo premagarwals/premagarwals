@@ -316,7 +316,7 @@ fieldset {
 
 @media(min-width: 992px){
 
-.div .flex img{
+.div .flex img, .div img{
 width: 40%;
 height: auto;
 margin: 30px 10px;
