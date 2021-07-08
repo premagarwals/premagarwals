@@ -172,6 +172,8 @@ function closeNav() {
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
     </fieldset>
   </form>  </div>
+<div id='cursor' class="cursor">  </div>
+</body> 
 <footer>  
 <p> You are visiting premagarwals.github.io - Prem Agarwal's </p>
 <p> &copy; Copyright 2021, all rights reserved. </p>
@@ -185,6 +187,10 @@ var say = document.getElementById("say").value;
 var link = "mailto:prem3rdac@gmail.com?subject=Name: "+name+"%0d%0aEmail: "+email+"%0d%0aContact No.: "+phone+"&body="+say;
 location.href = link;
 }
+ const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY)+"px; left: "+(e.pageX)+"px;")
+        })
 </script>
-    </body> 
+    
 </html>
