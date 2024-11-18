@@ -1,16 +1,22 @@
 ### Hello there! Welcome to my Profile! 👋  
 
-So, Here are the few things about me :)
+So, Here are a few things about me :)
 
 🌱 **Learning:** *DevOps, System Design* | 🔭 **Interests:** *CyberSec, Exploring Languages & Frameworks*
 
 ---
 
-🌟 **Tech Stack:**  
+### 🌟 **Tech Stack:**  
 
-**Frontend:** React, TailwindCSS | **Backend:** Python (Flask), Golang | **Databases:** PostgreSQL, SQLite | **Others:** C++, Django  
+| **Frontend** | **Backend**  | **Databases**      | **Other**  |
+|--------------|--------------|--------------------|------------|
+| ![React](https://img.shields.io/badge/React-React-blue) | ![Python](https://img.shields.io/badge/Python-3.8-blue) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-PostgreSQL-blue) | ![C++](https://img.shields.io/badge/C%2B%2B-C++-blue)  |
+| ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-TailwindCSS-blue) | ![Flask](https://img.shields.io/badge/Flask-Flask-blue) | ![SQLite](https://img.shields.io/badge/SQLite-SQLite-blue)  | ![Django](https://img.shields.io/badge/Django-Django-blue) |
+|              | ![Golang](https://img.shields.io/badge/Golang-Golang-blue) |                    |            |
 
 ---
+
+### 🚀 **My GitHub Stats**
 
 <div align="center">
 
@@ -20,5 +26,16 @@ So, Here are the few things about me :)
 
 </div>
 
+### 🔗 **Find me on:**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/premagarwal)  
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-blue)](https://github.com/premagarwals)
+
 ---
 
+### 💬 **My Journey:**  
+Did you know? The first programming language I learned was **Python**, but I'm currently exploring **GoLang** because of its speed and efficiency. Also, I'm always up for discussing the latest tech, so don't hesitate to reach out!
+
+---
+
+Feel free to explore my repositories and enjoy coding! 😎
