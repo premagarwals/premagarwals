@@ -33,9 +33,4 @@ So, Here are a few things about me :)
 
 ---
 
-### 💬 **My Journey:**  
-Did you know? The first programming language I learned was **Python**, but I'm currently exploring **GoLang** because of its speed and efficiency. Also, I'm always up for discussing the latest tech, so don't hesitate to reach out!
-
----
-
 Feel free to explore my repositories and enjoy coding! 😎
